@@ -1,4 +1,4 @@
-baseURL = "https://dxmarathon.com/"
+baseURL = "https://dxmarathon.netlify.app/"
 languageCode = "en-us"
 title = "DX Marathon"
 theme = 'beautiful-dxm'
