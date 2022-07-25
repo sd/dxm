@@ -1,0 +1,46 @@
+baseURL = "https://dxmarathon.com/"
+languageCode = "en-us"
+title = "DX Marathon"
+theme = 'beautifulhugo'
+
+[Author]
+name = "The DX Marathon Managers"
+
+[Params]
+  # mainSections = ["news", "results"]
+  logo = "cq-square.png"
+  author = "The DX Marathon Managers"
+  since = "2006"
+
+
+[markup.goldmark.renderer]
+  unsafe = true
+[markup.goldmark.parser.attribute]
+  block = true
+  attribute = true
+
+[[menu.main]]
+  name = "Home"
+  url = ""
+  weight = 1
+
+[[menu.main]]
+    name = "News"
+    url = "news"
+    weight = 2
+
+[[menu.main]]
+    name = "Rules"
+    url = "rules"
+    weight = 4
+
+[[menu.main]]
+    name = "2021"
+    url = "results/2021"
+    weight = 5
+
+[[menu.main]]
+    name = "Results"
+    url = "results"
+    weight = 5
+

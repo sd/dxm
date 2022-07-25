@@ -1,0 +1,13 @@
+.note {
+  background-color: #FFC;
+  border: 1px solid #CC3;
+  padding: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.note-left {
+  margin-right: 1.5em;
+  float: right;
+  max-width: 50%;
+  min-width: 30%;
+}
