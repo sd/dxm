@@ -1,7 +1,7 @@
 baseURL = "https://dxmarathon.com/"
 languageCode = "en-us"
 title = "DX Marathon"
-theme = 'beautifulhugo'
+theme = 'beautiful-dxm'
 
 [Author]
 name = "The DX Marathon Managers"
